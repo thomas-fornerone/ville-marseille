@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Ville de Marseille</title>
+    <link rel="stylesheet" href="../css/marseille.css" />
+    <link rel="stylesheet" href="../css/marseille3.css">
+      
+  </head>
+
+  <body>
+
+  <header>
+    
+    <nav>
+        <ul>
+            <li><a href="marseille.html"><img src="blason-marseille.jpg" class="imgacc" /></a></li>
+            <li><a href="marseille1.html">Histoire de Marseille</a></li>
+          <li class="menu-deroulant">
+            <a href="#">Activités</a>
+            <ul class="sous-menu">
+              <li><a href="marseille2.html" class="lfooter">Annuaire des musées</a></li>
+              <li><a href="marseille4.html" class="lfooter">Plages</a></li>
+              <li><a href="marseille5.html" class="lfooter">Randonnées à proximité</a></li>
+              <li><a href="marseille6.html" class="lfooter">Parcs publics</a></li>
+            </ul>
+          </li>
+          <li><a href="marseille3.html">Contactez-nous</a></li>
+        </ul>
+      </nav>
+
+  </header>
+
+  <main class="maincontact">
+
+    <div class="contactez-nous">
+      <h2 class="tcontact">Veuillez remplir ce formulaire si vous avez besoin de renseignements</h2>
+      <form action="/page-traitement-donnees" method="post">
+  
+        <div>
+          <label for="prenom"></label>
+          <input type="text" id="prenom" name="prenom" placeholder="Prénom" required>
+        </div>
+  
+        <div>
+          <label for="nom"></label>
+          <input type="text" id="nom" name="nom" placeholder="Nom" required>
+        </div>
+  
+        <div>
+          <label for="email"></label>
+          <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+        </div>
+  
+        <div>
+          <label for="tel"></label>
+          <input type="text" id="tel" name="tel" placeholder="Téléphone" required>
+        </div>
+  
+        <div>
+          <label for="adresse"></label>
+          <input type="text" id="adresse" name="adresse" placeholder="Adresse" required>
+        </div>
+  
+        <div>
+          <label for="cp"></label>
+          <input type="text" id="cp" name="cp" placeholder="Code postal" required>
+        </div>
+  
+        <div>
+          <label for="message"></label>
+          <textarea id="message" name="message" placeholder="Message" required></textarea>
+        </div>
+  
+        <div>
+          <button type="submit">Envoyer</button>
+        </div>
+  
+      </form>
+    </div>
+  
+  </main>
+
+  <footer>
+
+    <section class="grid3">
+
+      <article class="flc">
+        <a href="https://fr-fr.facebook.com/marseilleville/" target="_blank"><img src="logofb.png" alt="Facebook" class="fimg"></a><a href="https://www.instagram.com/villemarseille/?hl=fr" target="_blank"><img src="logoig.png" alt="Instagram" class="fimg"></a><a href="https://twitter.com/marseille?lang=fr" target="_blank"><img src="logotw.png" alt="Twitter" class="fimg"></a><a href="https://www.youtube.com/user/villedemarseille" target="_blank"><img src="logoyt.png" alt="YouTube" class="fimg"></a>
+      </article>
+
+      <article class="ftc">
+        <a href="marseille.html" class="lfooter">Accueil</a>
+        <a href="marseille1.html" class="lfooter">Histoire de Marseille</a>
+        <a href="marseille2.html" class="lfooter">Annuaire des musées</a>
+        <a href="marseille4.html" class="lfooter">Plages</a>
+        <a href="marseille5.html" class="lfooter">Randonnées à proximité</a>
+        <a href="marseille6.html" class="lfooter">Parcs publics</a>
+      </article>
+
+      <article class="ftc">
+        <button onclick="window.location.href = 'marseille3.html'" class="fbutton">Contact</button>
+      </article>
+
+    </section>
+
+  </footer>
+
+  </body>
+
+</html>

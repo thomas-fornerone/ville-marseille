@@ -1,0 +1,87 @@
+.titre{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.histoire{
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.texte1{
+    margin-top: 20px;
+}
+
+.soustexte{
+    margin-top: 20px;
+}
+
+.texte{
+    margin-right: 300px;
+    margin-left: 300px;
+    background-color: rgb(42, 152, 212);
+}
+
+.photo{
+    margin-left: 450px;
+    margin-right: 400px;
+}
+
+.photo0{
+    margin-left: 450px;
+    margin-right: 400px;
+    7
+}
+
+img {
+    max-width: 100%;
+}
+.slider {
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+    height: 350px;
+    overflow: hidden;
+}
+.menu {
+    position: absolute;
+    left: 0;
+    z-index: 11;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+.menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+}
+.menu label:hover,.menu label:focus {
+    background: #1c87c9;
+}
+.slide-input{
+    opacity: 0;
+}
+.slide-img {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    transition: left 0s 0.75s;
+}
+[id^="slide"]:checked + .slide-img {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}
