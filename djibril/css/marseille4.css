@@ -1,0 +1,21 @@
+/*LISTE DES PLAGES*/
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+    margin: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+     margin-left: 20px;
+
+
+}
